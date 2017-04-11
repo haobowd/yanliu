@@ -79,6 +79,10 @@ body {
   margin-right: 10px;
 }
 .grid_7,
+.grid_7_1{
+  display: inline;
+  float: left;
+}
 .grid_8,
 .grid_9,
 .grid_9_1 {
@@ -198,6 +202,12 @@ body {
 }
 .container_12 .grid_7 {
   width: 540px;
+}
+.container_12 .grid_7_1 {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  margin-left: 120px;
 }
 
 .container_12 .grid_8 {
