@@ -83,6 +83,10 @@ body {
   display: inline;
   float: left;
 }
+.grid_7_2{
+  display: inline;
+  float: left;
+}
 .grid_8,
 .grid_9,
 .grid_9_1 {
@@ -140,7 +144,7 @@ body {
 }
 .container_12 .grid_3_1 {
   width: 230px;
-  background-color: white;
+  background-color: rgb(254, 246, 236);
   border-top: 2px solid #d81e06;
 }
 .container_12 .grid_3_2 {
@@ -173,7 +177,7 @@ body {
 }
 .container_12 .grid_5_2 {
   width: 332px;
-  background-color: white;
+  background-color: rgb(254, 246, 236);
   border-top: 2px solid #d81e06;
   height: 290px;
 }
@@ -189,7 +193,7 @@ body {
 }
 .container_12 .grid_6_1 {
   width: 708px;
-  background-color: white;
+  background-color: rgb(254, 246, 236);
   border-top: 2px solid #d81e06;
   height: 290px;
 }
@@ -206,8 +210,11 @@ body {
 .container_12 .grid_7_1 {
   width: 75%;
   margin: auto;
-  text-align: center;
+  /*text-align: center;*/
   margin-left: 120px;
+}
+.container_12 .grid_7_2{
+  width: 690px;
 }
 
 .container_12 .grid_8 {
@@ -219,7 +226,7 @@ body {
 }
 .container_12 .grid_9_1 {
   width: 840px;
-  background-color: white;
+  background-color: rgb(254, 246, 236);
   border-top: 2px solid #d81e06;
   height:620px ;
 }

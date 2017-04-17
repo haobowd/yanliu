@@ -20,7 +20,7 @@ a[href^="tel:"] {
 body {
 	position: relative;
 	min-width: 960px;
-    background-color: rgb(254, 246, 236);
+    background-color: white/*rgb(254, 246, 236)*/;
     color: #838181;
     font: 14px/20px 'Open Sans', sans-serif;
 }
@@ -378,7 +378,43 @@ a.donate:hover {
 /**Content**/
 
 .content {
-    padding-bottom: 50px;
+    padding:20px 0px 50px 0px;
+    width:1080px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.content_L{
+    padding:10px;
+    width: 778px;
+    float:left;
+    border: 1px solid #d9d9d9;
+}
+.content_R{
+    float:right;
+    padding-left:12px;
+    padding-bottom:10px;
+    width:250px;
+    border: 1px solid #d9d9d9;
+}
+.content_R li{
+    padding:5px 0px;
+    font-size:16px;
+}
+/*.content_R li:last-child{
+    float:right;
+    margin-right:15px;
+}*/
+.content_R h2{
+    font-size:18px;
+    line-height:24px;
+    padding-top:10px;
+    padding-bottom:15px;
+    border-bottom: 1px dashed #eee;
+}
+.content_R h5{
+    display:inline;
+    margin-right:8px;
+    font-size:14px;
 }
 
 .page1 .content {
@@ -395,7 +431,7 @@ a.donate:hover {
     line-height: 24px;
 }
 .bq1 {
-    background-color: #fff;
+    background-color: rgb(254, 246, 236);
     margin-top: 57px;
     padding-bottom: 26px;
 }
@@ -786,3 +822,26 @@ h5.author_name{
 .main_ty{ width:1080px; margin:0 auto; overflow:hidden;}
 .link{ margin-top:15px;}
 .link li{ width:184px; height:46px; overflow:hidden; padding:3px; border:1px solid #dddddd; margin-left:10px; float:left;}
+
+
+
+/*留言板*/
+.comment_list{
+
+    width:620px;
+    float: left;
+}
+.comment_form{
+    width:400px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+}
+.comment_form div{
+    margin-bottom: 10px;
+}
+.comment_form input,.comment_form textarea{
+    width:400px;
+
+}
+

@@ -144,11 +144,11 @@ nav{ position:relative;padding: 0px 0 0 0;}
 /*================================>> 3 Level <<========================================*/
 .sf-menu li.sfHover li.sfHover ul{
 	position: absolute;
-	padding-top: 32px;
-	padding-bottom: 35px;
-	left: 203px;
-	top: -9px;
-	width: 135px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	left: 80px;
+	top: -10px;
+	width: 60px;
 	background-color: #3d454b;
 }
 
